@@ -6,7 +6,7 @@ Dependables:
 - X Developer free tier.
 - X Developer API credentials.
 
-1. Add your API Key, API Secret Key, Access Token, and Access Token Secret to the .py file.
+1. Add your API Key, API Secret Key, Access Token, and Access Token Secret to the .py file, within the quotations on lines 6 through 9.
 
 2. Remove lines 71 through 75 so the automation will only post images in chronological order.
 
