@@ -10,21 +10,23 @@ Dependables:
 
 2. Remove lines 71 through 75 so the automation will only post images in chronological order.
 
-3. Modify lines 56, 61, and 67 to include the correct number of image files. 
+3. Replace "/image/path/here" in line 53 with the file path to the required images.
 
 4. Ensure that the image name scheme is modified in lines 57 and 61, or change the image name scheme to frame1.png, frame2.png, etc. 
 
-5. Save the .py file as a globally unique name.
+5. Modify lines 56, 61, and 67 to include the correct number of image files. 
 
-6. Open Terminal and enter this command: 
+6. Save the .py file as a globally unique name.
+
+7. Open Terminal and enter this command: 
 
         pip install tweepy
 
-7. Once Tweepy installs, enter this command with the & at the end to run the .py file in the background: 
+8. Once Tweepy installs, enter this command with the & at the end to run the .py file in the background: 
 
         nohup python3 [yourfilename].py &
 
-8. Find the process ID of the automation with this:
+9. Find the process ID of the automation with this:
 
 ps aux | grep [yourfilename].py
 
