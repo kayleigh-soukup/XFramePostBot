@@ -63,10 +63,10 @@ for i in range(1, 818):  # Frame numbers: 1 to 817
     else:
         print(f"Image not found: {image_name}")
 
-    # Wait for 1 hour before the next tweet
+    # Wait for 2 hours before the next tweet in order to stay under rate limit
     if i < 817:  # Avoid waiting after the last image
-        print("Waiting 1 hour before the next tweet...")
-        time.sleep(60 * 60)  # 1 hour in seconds
+        print("Waiting 2 hours before the next tweet...")
+        time.sleep(120 * 60)  # 2 hours in seconds
 
 # Loop through the images and tweet them forward
 post_images_in_range(1, 871, step=1, total_frames=871)
