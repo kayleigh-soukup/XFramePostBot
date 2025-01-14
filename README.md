@@ -1,6 +1,6 @@
 A friend asked me to create an automation for X (formerly Twitter) that would post every frame from the movie Tenet that featured Robert Pattinson.
 
-Using her X Developer API credentials, I wrote a Python script to authenticate the credentials and utilized the Tweepy library (both v1.1 and v2) to upload the locally stored images and post them hourly in sequence.
+Using her X Developer API credentials, I wrote a Python script to authenticate the credentials and utilized the Tweepy library (both v1.1 and v2) to upload the locally stored images and post them every two hours in sequence.
 
 She then suggested an idea inspired by Tenet: after posting the frames in chronological order, the automation should repost them in reverse order. I implemented this concept by using the post_images_in_range function to include both the forward and reverse posting sequences.
 
